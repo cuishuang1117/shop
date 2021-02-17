@@ -1,0 +1,39 @@
+body,html,#root,.ant-layout{
+  width: 100%;
+  height: 100%;
+}
+#components-layout-demo-top-side-2 .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+/* .card-style .ant-card-body .ant-table .ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td{
+  background-color: aqua;
+} */
+.ant-table-tbody > tr:hover > td{
+   background:#E5F2FF!important;
+ }
+.notOnSale {
+   background-color: gray!important ;
+ }
+
+ /* .ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td,.ant-table-row-hover,.ant-table-row-hover>td{
+  background:#E5F2FF!important;
+} */
+
+/* .ant-table-fixed .ant-table-row-hover, .ant-table-row-hover>td{
+ background: #E5F2FF!important;
+} */
+
+
